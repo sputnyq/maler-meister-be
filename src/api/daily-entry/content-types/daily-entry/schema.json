@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "daily_entries",
+  "info": {
+    "singularName": "daily-entry",
+    "pluralName": "daily-entries",
+    "displayName": "DailyEntry",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Arbeit",
+        "Urlaub",
+        "Krank"
+      ]
+    },
+    "sum": {
+      "type": "decimal"
+    },
+    "overload": {
+      "type": "decimal"
+    },
+    "underload": {
+      "type": "decimal"
+    },
+    "work_entries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work-entry.work-entry",
+      "mappedBy": "daily_entry"
+    }
+  }
+}
