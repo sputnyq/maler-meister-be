@@ -72,6 +72,12 @@
         "accountant",
         "worker"
       ]
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
     }
   }
 }
