@@ -2,7 +2,7 @@
   "name": "maler-meister-be",
   "private": true,
   "version": "1.0.2",
-  "description": "A Strapi application",
+  "description": "cms for the maler-meister-app",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",

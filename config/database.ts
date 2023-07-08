@@ -1,10 +1,10 @@
 import path from "path";
 
 const parse = require("pg-connection-string").parse;
-const config = parse(process.env.DATABASE_URL);
 
 export default ({ env }) => {
   const client = env("DATABASE_CLIENT", "sqlite");
+  const config = parse(process.env.DATABASE_URL || "");
 
   const connections = {
     mysql: {
