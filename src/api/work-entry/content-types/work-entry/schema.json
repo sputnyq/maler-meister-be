@@ -4,7 +4,8 @@
   "info": {
     "singularName": "work-entry",
     "pluralName": "work-entries",
-    "displayName": "WorkEntry"
+    "displayName": "WorkEntry",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,6 +32,9 @@
       "relation": "manyToOne",
       "target": "api::daily-entry.daily-entry",
       "inversedBy": "work_entries"
+    },
+    "tenant": {
+      "type": "string"
     }
   }
 }

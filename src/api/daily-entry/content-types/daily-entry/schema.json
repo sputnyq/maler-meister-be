@@ -40,6 +40,9 @@
       "relation": "oneToMany",
       "target": "api::work-entry.work-entry",
       "mappedBy": "daily_entry"
+    },
+    "tenant": {
+      "type": "string"
     }
   }
 }

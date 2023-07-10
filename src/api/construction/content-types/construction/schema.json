@@ -4,7 +4,8 @@
   "info": {
     "singularName": "construction",
     "pluralName": "constructions",
-    "displayName": "Construction"
+    "displayName": "Construction",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,9 @@
     },
     "active": {
       "type": "boolean"
+    },
+    "tenant": {
+      "type": "string"
     }
   }
 }
