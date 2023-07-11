@@ -23,7 +23,8 @@
       "enum": [
         "Arbeit",
         "Urlaub",
-        "Krank"
+        "Krank",
+        "Schule"
       ]
     },
     "sum": {
