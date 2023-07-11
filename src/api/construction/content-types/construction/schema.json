@@ -20,6 +20,18 @@
     },
     "tenant": {
       "type": "string"
+    },
+    "confirmed": {
+      "type": "boolean"
+    },
+    "start": {
+      "type": "date"
+    },
+    "end": {
+      "type": "date"
+    },
+    "allocatedPersons": {
+      "type": "integer"
     }
   }
 }
