@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bgb_services",
+  "info": {
+    "singularName": "bgb-service",
+    "pluralName": "bgb-services",
+    "displayName": "BGB-Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "taxRate": {
+      "type": "decimal"
+    },
+    "unitPrice": {
+      "type": "decimal"
+    },
+    "group": {
+      "type": "string"
+    }
+  }
+}
