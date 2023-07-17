@@ -4,7 +4,7 @@
   "info": {
     "singularName": "bgb-service",
     "pluralName": "bgb-services",
-    "displayName": "BGB-Service",
+    "displayName": "BGBService",
     "description": ""
   },
   "options": {

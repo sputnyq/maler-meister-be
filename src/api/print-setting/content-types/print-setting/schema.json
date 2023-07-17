@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "print_settings",
+  "info": {
+    "singularName": "print-setting",
+    "pluralName": "print-settings",
+    "displayName": "PrintSetting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tenant": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "settings": {
+      "type": "json"
+    }
+  }
+}
