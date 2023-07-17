@@ -4,7 +4,8 @@
   "info": {
     "singularName": "bgb-service",
     "pluralName": "bgb-services",
-    "displayName": "BGB-Service"
+    "displayName": "BGB-Service",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,8 +24,8 @@
     "unitPrice": {
       "type": "decimal"
     },
-    "group": {
-      "type": "string"
+    "jobId": {
+      "type": "integer"
     }
   }
 }
