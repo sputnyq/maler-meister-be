@@ -17,6 +17,9 @@
     },
     "tenant": {
       "type": "string"
+    },
+    "position": {
+      "type": "integer"
     }
   }
 }

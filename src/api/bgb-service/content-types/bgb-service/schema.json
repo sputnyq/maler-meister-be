@@ -29,6 +29,9 @@
     },
     "tenant": {
       "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
