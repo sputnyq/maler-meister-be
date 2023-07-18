@@ -35,6 +35,9 @@
     },
     "tenant": {
       "type": "string"
+    },
+    "jobId": {
+      "type": "integer"
     }
   }
 }
