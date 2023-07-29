@@ -4,7 +4,8 @@
   "info": {
     "singularName": "offer",
     "pluralName": "offers",
-    "displayName": "Offer"
+    "displayName": "Offer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -46,12 +47,6 @@
     },
     "constructionId": {
       "type": "integer"
-    },
-    "start": {
-      "type": "date"
-    },
-    "end": {
-      "type": "date"
     },
     "offerServices": {
       "type": "json"
