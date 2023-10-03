@@ -14,9 +14,9 @@
     "@strapi/plugin-users-permissions": "4.14.2",
     "@strapi/strapi": "4.14.2",
     "better-sqlite3": "8.7.0",
-    "pg": "^8.11.1",
-    "pg-connection-string": "^2.6.1",
-    "strapi-plugin-multi-select": "^1.1.0"
+    "pg": "^8.11.3",
+    "pg-connection-string": "^2.6.2",
+    "strapi-plugin-multi-select": "^1.2.2"
   },
   "author": {
     "name": "nikolai k."
