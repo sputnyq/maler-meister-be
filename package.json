@@ -1,7 +1,7 @@
 {
   "name": "maler-meister-be",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cms for the maler-meister-app",
   "scripts": {
     "develop": "strapi develop",
@@ -10,13 +10,17 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.14.2",
-    "@strapi/plugin-users-permissions": "4.14.2",
-    "@strapi/strapi": "4.14.2",
+    "@strapi/plugin-i18n": "4.15.4",
+    "@strapi/plugin-users-permissions": "4.15.4",
+    "@strapi/strapi": "4.15.4",
     "better-sqlite3": "8.7.0",
     "pg": "^8.11.3",
     "pg-connection-string": "^2.6.2",
-    "strapi-plugin-multi-select": "^1.2.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "strapi-plugin-multi-select": "^1.2.2",
+    "styled-components": "^5.3.11"
   },
   "author": {
     "name": "nikolai k."
