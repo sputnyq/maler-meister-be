@@ -768,7 +768,9 @@ export interface ApiDailyEntryDailyEntry extends Schema.CollectionType {
   attributes: {
     username: Attribute.String;
     date: Attribute.Date;
-    type: Attribute.Enumeration<['Arbeit', 'Urlaub', 'Krank', 'Schule']>;
+    type: Attribute.Enumeration<
+      ['Arbeit', 'Urlaub', 'Krank', 'Schule', 'Feiertag']
+    >;
     sum: Attribute.Decimal;
     overload: Attribute.Decimal;
     underload: Attribute.Decimal;
@@ -966,6 +968,11 @@ export interface ApiWorkEntryWorkEntry extends Schema.CollectionType {
     >;
     tenant: Attribute.String;
     jobId: Attribute.Integer;
+    start: Attribute.String;
+    end: Attribute.String;
+    breakStart: Attribute.String;
+    breakEnd: Attribute.String;
+    break: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

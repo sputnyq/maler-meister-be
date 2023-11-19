@@ -24,7 +24,8 @@
         "Arbeit",
         "Urlaub",
         "Krank",
-        "Schule"
+        "Schule",
+        "Feiertag"
       ]
     },
     "sum": {

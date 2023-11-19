@@ -38,6 +38,21 @@
     },
     "jobId": {
       "type": "integer"
+    },
+    "start": {
+      "type": "string"
+    },
+    "end": {
+      "type": "string"
+    },
+    "breakStart": {
+      "type": "string"
+    },
+    "breakEnd": {
+      "type": "string"
+    },
+    "break": {
+      "type": "string"
     }
   }
 }
