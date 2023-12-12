@@ -944,6 +944,38 @@ export interface ApiPrintSettingPrintSetting extends Schema.CollectionType {
   };
 }
 
+export interface ApiShiftShift extends Schema.CollectionType {
+  collectionName: 'shifts';
+  info: {
+    singularName: 'shift';
+    pluralName: 'shifts';
+    displayName: 'Shift';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    tenant: Attribute.String;
+    date: Attribute.Date;
+    constructionsPlan: Attribute.JSON;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::shift.shift',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::shift.shift',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiWorkEntryWorkEntry extends Schema.CollectionType {
   collectionName: 'work_entries';
   info: {
@@ -1014,6 +1046,7 @@ declare module '@strapi/types' {
       'api::job.job': ApiJobJob;
       'api::offer.offer': ApiOfferOffer;
       'api::print-setting.print-setting': ApiPrintSettingPrintSetting;
+      'api::shift.shift': ApiShiftShift;
       'api::work-entry.work-entry': ApiWorkEntryWorkEntry;
     }
   }
