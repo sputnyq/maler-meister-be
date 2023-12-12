@@ -950,14 +950,16 @@ export interface ApiShiftShift extends Schema.CollectionType {
     singularName: 'shift';
     pluralName: 'shifts';
     displayName: 'Shift';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     tenant: Attribute.String;
-    date: Attribute.Date;
     constructionsPlan: Attribute.JSON;
+    start: Attribute.DateTime;
+    end: Attribute.DateTime;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

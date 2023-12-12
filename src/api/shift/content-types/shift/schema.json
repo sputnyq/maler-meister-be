@@ -4,7 +4,8 @@
   "info": {
     "singularName": "shift",
     "pluralName": "shifts",
-    "displayName": "Shift"
+    "displayName": "Shift",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,11 +15,14 @@
     "tenant": {
       "type": "string"
     },
-    "date": {
-      "type": "date"
-    },
     "constructionsPlan": {
       "type": "json"
+    },
+    "start": {
+      "type": "datetime"
+    },
+    "end": {
+      "type": "datetime"
     }
   }
 }
