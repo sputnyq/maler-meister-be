@@ -56,6 +56,18 @@
     },
     "tenant": {
       "type": "string"
+    },
+    "isPaid": {
+      "type": "boolean"
+    },
+    "invoiceType": {
+      "type": "enumeration",
+      "enum": [
+        "RECHNUNG",
+        "ABSCHLAGSRECHNUNG",
+        "VORAUSZAHLUNG",
+        "SCHLUSSRECHNUNG"
+      ]
     }
   }
 }
