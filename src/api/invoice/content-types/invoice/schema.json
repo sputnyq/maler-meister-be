@@ -68,6 +68,9 @@
         "VORAUSZAHLUNG",
         "SCHLUSSRECHNUNG"
       ]
+    },
+    "date": {
+      "type": "date"
     }
   }
 }

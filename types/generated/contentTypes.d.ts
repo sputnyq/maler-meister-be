@@ -502,6 +502,7 @@ export interface ApiInvoiceInvoice extends Schema.CollectionType {
       'admin::user'
     > &
       Attribute.Private;
+    date: Attribute.Date;
     email: Attribute.String;
     firstName: Attribute.String;
     invoiceType: Attribute.Enumeration<
@@ -576,6 +577,7 @@ export interface ApiOfferOffer extends Schema.CollectionType {
       'admin::user'
     > &
       Attribute.Private;
+    date: Attribute.Date;
     email: Attribute.String;
     firstName: Attribute.String;
     lastName: Attribute.String;

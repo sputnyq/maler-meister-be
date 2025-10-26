@@ -53,6 +53,9 @@
     },
     "tenant": {
       "type": "string"
+    },
+    "date": {
+      "type": "date"
     }
   }
 }
